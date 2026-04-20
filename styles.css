@@ -272,3 +272,28 @@ h1 {
   .contact-card { padding: 18px; }
   .nav { font-size: 0.9rem; }
 }
+
+
+
+
+.links {
+  margin-top: 15px;
+}
+
+.links a {
+  display: inline-block;
+  margin: 5px 8px;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+}
