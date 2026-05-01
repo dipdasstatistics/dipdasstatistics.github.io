@@ -2,15 +2,16 @@ body {
   font-family: Arial, sans-serif;
   background: #0d1117;
   color: #e6edf3;
+  margin: 0;
+  padding: 0;
 }
 
-/* Container */
 .container {
   max-width: 900px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-/* Projects */
 .project-card {
   background: #161b22;
   padding: 20px;
@@ -25,5 +26,9 @@ body {
 }
 
 h1, h2 {
-  color: white;
+  color: #fff;
+}
+
+hr {
+  border: 1px solid #2c313a;
 }
