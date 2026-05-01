@@ -94,3 +94,22 @@
 .project-card:hover {
   transform: translateY(-5px);
 }
+
+
+.project-card {
+  background: #111;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  margin-top: 0;
+}
+
