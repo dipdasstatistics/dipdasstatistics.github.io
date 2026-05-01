@@ -4,31 +4,83 @@ permalink: /
 ---
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Dip Das</title>
+  <meta charset="UTF-8">
+  <title>Dip Das | Data Scientist</title>
   <link rel="stylesheet" href="/assets/css/custom.css">
+  <!-- Pull in a modern font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <h1>Hi, I'm Dip Das</h1>
-    <p>
-      Data Scientist focused on Machine Learning, Bayesian methods, and real‑world data problems.
-    </p>
-    <hr>
-    <h2>Projects</h2>
-    <div class="project-card">
-      <h3>Heart Failure Prediction</h3>
-      <p>Built machine learning models to predict heart failure outcomes.</p>
+  <!-- Navigation bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a class="nav-brand" href="#">Dip Das</a>
+      <ul class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
-    <div class="project-card">
-      <h3>Survival Analysis Model</h3>
-      <p>Developed statistical models for censored healthcare data.</p>
+  </nav>
+
+  <!-- Hero section -->
+  <header class="hero">
+    <div class="container">
+      <h1>Hi, I'm Dip Das</h1>
+      <p class="subtitle">Data Scientist & Machine Learning Researcher specializing in Bayesian methods and survival analysis.</p>
+      <a class="btn" href="/files/resume.pdf">Download Resume</a>
     </div>
-    <div class="project-card">
-      <h3>Bayesian MCMC</h3>
-      <p>Implemented scalable Bayesian inference methods.</p>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2>About</h2>
+      <p>Introduce yourself briefly (PhD in Statistics, experience with healthcare and government data, research expertise in ML, Bayesian modelling and survival analysis).</p>
     </div>
-  </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li><strong>Languages:</strong> Python, R, SQL</li>
+        <li><strong>Machine learning:</strong> supervised & unsupervised learning, deep learning, generative models</li>
+        <li><strong>Statistics:</strong> Bayesian methods, survival analysis, MCMC</li>
+        <li><strong>Tools:</strong> SurveyCTO, SAS, STATA, Hadoop</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Heart Failure Prediction</h3>
+          <p>Built ML models to predict heart failure outcomes using clinical data.</p>
+          <a class="project-link" href="https://github.com/yourRepo/heart-failure-models">View code</a>
+        </div>
+        <!-- Add other project cards similarly -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>If you’d like to collaborate, please <a href="mailto:your.email@example.com">get in touch</a>.</p>
+      <div class="social-links">
+        <a href="https://github.com/dipdasstatistics" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/dip-d-0a6a48157/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
